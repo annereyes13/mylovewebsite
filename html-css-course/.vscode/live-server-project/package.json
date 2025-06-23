@@ -1,0 +1,12 @@
+{
+  "name": "live-server-project",
+  "version": "1.0.0",
+  "description": "A project to serve portfolio.html with live server",
+  "main": "portfolio.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

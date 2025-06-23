@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyLittlePortfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>MyLittlePortfolio</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="home-section">
+        <h2>Welcome to MyLittlePortfolio</h2>
+        <div style="display: flex; align-items: center; gap: 20px;">
+            <div style="flex: 1; text-align: left;">
+                <p>Welcome to My Little Portfolio – a personal space where creativity, learning, and passion come together. This portfolio showcases my journey through various projects, achievements, and experiences that have shaped who I am today. Each section reflects my dedication to growth, whether through academic work, personal interests, or creative expression. It's more than just a collection of work—it's a reflection of my story, my skills, and the dreams I continue to pursue.</p>
+                <!-- Buttons to navigate to other pages -->
+                <div style="margin-top: 20px;">
+                    <button onclick="window.location.href='about.html'" style="padding: 10px 20px; background-color: #ff0077; color: white; border: none; border-radius: 5px; cursor: pointer;">Go to About Me</button>
+                    <button onclick="window.location.href='journey.html'" style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">Go to Journey</button>
+                </div>
+            </div>
+            <img src="me.jpg" alt="Self" style="max-width: 300px; height: auto; border-radius: 12px; flex-shrink: 0;">
+        </div>
+    </section>
+    <footer id="footer">
+        <p>&copy; 2025 MyLittlePortfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>

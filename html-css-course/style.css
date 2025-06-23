@@ -1,0 +1,126 @@
+body {
+    background-image: url("bg.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    color: #000000;
+}
+
+header {
+    background-color: #ff0077;
+    color: white;
+    padding: 0.5rem 0; /* Reduced padding for a smaller header */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Slightly lighter shadow */
+    font-size: 14px; /* Adjusted font size for smaller text */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 50px; /* Adjusted for fixed header */
+    padding: 50px 20px;
+}
+
+/* Styling for h2 headers */
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem; /* Adjust font size for better visibility */
+    color: #222; /* Dark color for contrast */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for h3 headers */
+h3 {
+    font-family: 'Dancing Script', cursive; /* Apply Dancing Script font */
+    font-size: 2rem; /* Slightly smaller font size */
+    color: #444; /* Slightly lighter color for differentiation */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 15px;
+}
+
+/* Styling for h4 headers */
+h4 {
+    font-family: 'Arial', sans-serif; /* Apply a clean sans-serif font */
+    font-size: 1.8rem; /* Smaller font size */
+    color: #555; /* Lighter color for subtlety */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 10px;
+}
+h5 {
+    font-family: 'Arial', sans-serif; /* Apply a clean sans-serif font */
+    font-size: 1.5rem; /* Smaller font size */
+    color: #666; /* Lighter color for subtlety */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 5px;
+}
+.about-section {
+    margin-top: 50px; /* Adjusted for fixed header */
+    padding: 50px 20px;
+    text-align: left;
+    line-height: 1.6; /* Improved readability */
+}
+
+.journey-section {
+    margin-top: 40px; /* Adjusted spacing */
+    padding: 50px 20px;
+}
+
+footer {
+    margin-top: 5x;
+    padding: 2px 0;
+    border: 0.5px solid #ff0077; /* Footer border color */
+    color: #ff0077; /* Text color matches the border */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px; /* Adjusted font size */
+    transition: transform 0.3s ease; /* Smooth transition for visibility */
+    transform: translateY(100%); /* Initially hidden */
+    background-color: transparent; /* Ensures no background color */
+}
+
+.home-section {
+    margin-top: 50px; /* Adjusted for fixed header */
+    padding: 25px 10px;
+    text-align: left;
+    line-height: 1.0; /* Improved readability */
+    font-family: 'Times New Roman', cursive; /* Apply Dancing Script font */
+    font-size: 1.3rem; /* Adjusted font size for better visibility */
+}
+
+/* Import Dancing Script font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
